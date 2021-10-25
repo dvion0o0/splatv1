@@ -1,0 +1,63 @@
+.work {
+  height: calc(100vh - 80px);
+}
+
+.work-center {
+  display: grid;
+  grid-template-columns: 350px auto;
+}
+
+.filter-container {
+  height: calc(100vh - 80px);
+  /* background: turquoise; */
+  padding: 4rem 2rem;
+  position: fixed;
+  left: 4%;
+  /* display: flex; */
+}
+
+.filters {
+  margin-top: 1rem;
+}
+
+.filter {
+  outline: none;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  display: block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.filter:hover {
+  border: 1px solid var(--primary);
+}
+
+.projects {
+  width: 100%;
+  padding: 4rem 0 10rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10rem;
+  column-gap: 0rem;
+}
+
+.project {
+  width: 420px;
+  height: 300px;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.project h2 {
+  font-size: 20px;
+}
